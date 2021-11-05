@@ -1,0 +1,92 @@
+@use "sass:color";
+$text: #707070;
+
+
+.main-header .logo-menu {
+  height: 200px;
+  padding: 10px;
+}
+
+.main-header .logo-menu:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.main-header .bouton-menu {
+  
+  background: #e10707;
+  border-radius: 19px;
+  border: none;
+  font-size: 25px;
+  color: white;
+  white-space:nowrap;
+}
+
+.main-header  {
+  display: flex;
+  position: relative;
+  background: #ebf5ee;
+  height: 100%;
+}
+
+.main-header .liens-menu:link {
+  text-decoration: none;
+}
+
+.main-header .liens-menu:hover {
+  color: color.adjust($text, $lightness: 20%);
+  transition: 0.3s;
+}
+
+.main-header .navlinks {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  height: 100%;
+}
+
+.main-header nav {
+  display: block;
+  width: 100%;
+  height: 100%;
+  align-self: flex-end;
+}
+
+.main-header .logo {
+  height: 200px;
+  padding: 10px;
+}
+
+.main-header .logo:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.main-header a:link {
+  text-decoration: none;
+}
+
+.main-header a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.main-header a:hover {
+  text-decoration: underline;
+  color: #78A1BB;
+  transition: 0.5s;
+}
+
+.main-header a:active {
+  text-decoration: underline;
+  color: #E10707;
+}
+
+.main-header li,
+.main-header a,
+.main-header button {
+  font-weight: 500;
+  font-size: 16px;
+  color: #707070;
+  padding: 10px;
+}
