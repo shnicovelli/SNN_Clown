@@ -1,4 +1,5 @@
 /************ BLOC NOUVELLES ************/
+@use "font.scss";
 .main-nouvelles {
     background-color: #283044;
   
@@ -32,7 +33,7 @@
   .nouvelles-titre {
     color: white;
     font-size: 130px;
-    font-family: Cindyrella;
+    font-family: "Cindyrella";
     text-align: center;
     grid-column: span 3;
     padding-top: 40px;
