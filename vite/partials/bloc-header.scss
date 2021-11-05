@@ -1,5 +1,4 @@
-
-
+@use "sass:color";
 
 .main-header .logo-menu {
   height: 200px;
@@ -32,10 +31,6 @@
   text-decoration: none;
 }
 
-.main-header .liens-menu:hover {
-  color: color.adjust($text, $lightness: 20%);
-  transition: 0.3s;
-}
 
 .main-header .navlinks {
   display: flex;
