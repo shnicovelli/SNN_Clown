@@ -1,5 +1,6 @@
 import './style.scss'
 import './swipper'
+import './gsap'
 
 document.querySelector('#app').innerHTML = `
   <h1>Hello Vite!</h1>
