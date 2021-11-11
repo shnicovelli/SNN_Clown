@@ -1,4 +1,5 @@
 @use "partials/font.scss";
+@use "partials/variables.scss";
 @use "partials/bloc-animation";
 @use "partials/bloc-services";
 @use "partials/bloc-nouvelles.scss";
@@ -9,4 +10,3 @@
 @use "partials/bloc-header.scss";
 @use "partials/bloc-hero.scss";
 @use "partials/bloc-description.scss";
-@use "partials/variables.scss";
