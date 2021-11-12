@@ -21,7 +21,7 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
         <a href="#" class="liens-menu">Services</a>
         <a href="#" class="liens-menu">Équipe</a>
         <a href="#" class="liens-menu">À propos</a>
-        <a href="history.php" class="liens-menu">Histoire</a>
+        <a href="histoire.php" class="liens-menu">Histoire</a>
       </ul>
     </nav>
     <a href="#" class="liens-menu"><button class="bouton-menu">FAIRE UN DON</button></a>

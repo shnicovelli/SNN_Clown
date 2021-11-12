@@ -117,14 +117,26 @@ nav {
 
 .swiper {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   z-index: -1;
 }
 
 .swiper-img {
-   width: 100%;
-  height: 100%;
+  display:block;
+  width: 100%;
+  height: 100vh;
   object-fit: cover;
+}
+
+.swiper-slide{
+  position: relative;
+}
+
+@media(max-width:375px) {
+  .swiper-img {
+    width: 375px;
+    object-fit: cover;
+  }
 }
 
 
@@ -717,4 +729,36 @@ transform: translate(0px, 34px);
     font-size: 16px;
     transform: translate(-435px, 370px);
   }
+}
+
+
+.image-heros-histoire {
+  width: 100%;
+  filter: brightness(50%);
+  z-index: 0;
+}
+
+.titre-heros-histoire {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -150%);
+  color: white;
+  font-size: 100px;
+  z-index: 1;
+  font-family: Cindyrella;
+  white-space: nowrap;
+}
+
+@media (max-width:376px) {
+  .titre-heros-histoire{
+   font-size: 40px;
+    transform: translate(-50%, -900%);
+  }
+}
+
+.texte-histoire {
+  color: #707070;
+  font-size: 20px;
+  font-family: Corbel;
 }
