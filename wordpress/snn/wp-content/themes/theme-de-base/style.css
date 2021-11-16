@@ -47,6 +47,7 @@ header {
 
 .liens-menu:link {
   text-decoration: none;
+  color: #707070;
 }
 
 .navlinks {
@@ -551,23 +552,23 @@ footer {
   }
 }
 
-a:link {
+.lien-footer:link {
   text-decoration: none;
   color: white;
 }
 
-a:visited {
+.lien-footer:visited {
   text-decoration: none;
   color: white;
 }
 
-a:hover {
+.lien-footer:hover {
   text-decoration: underline;
   color: #78A1BB;
   transition: 0.5s;
 }
 
-a:active {
+.lien-footer:active {
   text-decoration: underline;
   color: #E10707;
 }
