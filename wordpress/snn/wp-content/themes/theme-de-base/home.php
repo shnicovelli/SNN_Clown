@@ -140,7 +140,7 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
   
   <div class="bloc-animation">
 
-<button class="bouton-don">FAIRE UN DON</button>
+<button class="bouton-don-bloc-don">FAIRE UN DON</button>
 <a class="titre-don">Lorem ipsum dolor sit amet</a>
   <a class="txt-don">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempo incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</a>  
 <div class='anim'>
