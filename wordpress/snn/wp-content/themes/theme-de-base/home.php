@@ -144,9 +144,9 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
 <a class="titre-don">Lorem ipsum dolor sit amet</a>
   <a class="txt-don">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempo incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</a>  
 <div class='anim'>
-  <img src='https://i.pinimg.com/originals/d9/33/0a/d9330a972ab4d3eb8940d5ab550ec05f.png' class = 'ballon1 '>
-  <img src='https://i.pinimg.com/originals/d9/33/0a/d9330a972ab4d3eb8940d5ab550ec05f.png' class = 'ballon2'>
-   <img src='https://i.pinimg.com/originals/d9/33/0a/d9330a972ab4d3eb8940d5ab550ec05f.png' class = 'ballon3'>
+  <img src='https://i.pinimg.com/originals/d9/33/0a/d9330a972ab4d3eb8940d5ab550ec05f.png' class = "ballon1">
+  <img src='https://i.pinimg.com/originals/d9/33/0a/d9330a972ab4d3eb8940d5ab550ec05f.png' class = "ballon2">
+  <img src='https://i.pinimg.com/originals/d9/33/0a/d9330a972ab4d3eb8940d5ab550ec05f.png' class = "ballon3">
 </div>
 </div>
   
