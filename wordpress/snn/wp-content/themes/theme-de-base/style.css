@@ -492,9 +492,6 @@ nav {
   border-radius: 19px;
   border: none;
   background-color: #E10707;
-}
-
-.btn {
   position: absolute;
   width:25%;
   height:125px;
@@ -505,7 +502,7 @@ nav {
   z-index:1;
 }
 
-.btn:hover {
+.bouton-don-bloc-don:hover {
   transform: translate(-50%,2%);
 }
 
