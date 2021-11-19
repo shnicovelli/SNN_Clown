@@ -52,7 +52,7 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
   
   <div class="swiper hero">
     <div class="swiper-wrapper">
-      <div class="swiper-slide"> <img src="https://raw.githubusercontent.com/shnicovelli/SNN_Clown/main/sources/medias/H%C3%A9ros.png"  class="swiper-img"></div>
+      <div class="swiper-slide"><img src="https://raw.githubusercontent.com/shnicovelli/SNN_Clown/main/sources/medias/H%C3%A9ros.png"  class="swiper-img"></div>
       <div class="swiper-slide"><img src="https://i.ytimg.com/vi/E0v1SRmOa2k/maxresdefault.jpg"  class="swiper-img"></div>
       <div class="swiper-slide"><img src="https://enpiste.qc.ca/medias/company/logo_image/Clowns_Sans_Frotnieres_Katel_Le_fustec_2.jpg"  class="swiper-img"></div>
       ...
@@ -140,7 +140,7 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
   
   <div class="bloc-animation">
 
-<button class="btn bouton">FAIRE UN DONS</button>
+<button class="btn bouton">FAIRE UN DON</button>
 <a class="titre-don">Lorem ipsum dolor sit amet</a>
   <a class="txt-don">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempo incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</a>  
 <div class='anim'>
