@@ -46,10 +46,7 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
     </div>
   </div>
   
-  <link
-    rel="stylesheet"
-    href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
-  />
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
   
   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
   
@@ -141,17 +138,17 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
   </div>
   
   
-  <div class="bloc-animation ">
-  
-  <button class="btn bouton-don">FAIRE UN DONS</button>
-  <a class="titre-don">Lorem ipsum dolor sit amet</a>
-    <a class="txt-don">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempo incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</a>  
-  <div class='anim'>
-    <img src='https://i.pinimg.com/originals/d9/33/0a/d9330a972ab4d3eb8940d5ab550ec05f.png' class = 'ballon1 '>
-    <img src='https://i.pinimg.com/originals/d9/33/0a/d9330a972ab4d3eb8940d5ab550ec05f.png' class = 'ballon2'>
-     <img src='https://i.pinimg.com/originals/d9/33/0a/d9330a972ab4d3eb8940d5ab550ec05f.png' class = 'ballon3'>
-  </div>
-  </div>
+  <div class="bloc-animation">
+
+<button class="btn bouton">FAIRE UN DONS</button>
+<a class="titre-don">Lorem ipsum dolor sit amet</a>
+  <a class="txt-don">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempo incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</a>  
+<div class='anim'>
+  <img src='https://i.pinimg.com/originals/d9/33/0a/d9330a972ab4d3eb8940d5ab550ec05f.png' class = 'ballon1 '>
+  <img src='https://i.pinimg.com/originals/d9/33/0a/d9330a972ab4d3eb8940d5ab550ec05f.png' class = 'ballon2'>
+   <img src='https://i.pinimg.com/originals/d9/33/0a/d9330a972ab4d3eb8940d5ab550ec05f.png' class = 'ballon3'>
+</div>
+</div>
   
   
   <!-- FOOTER -->
