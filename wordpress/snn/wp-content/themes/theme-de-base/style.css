@@ -152,6 +152,12 @@ nav {
   justify-items: center;
 }
 
+@media (max-width:768px) {
+  .services-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 @media (max-width:375px) {
   .services-wrapper {
     grid-template-columns: 1fr;
@@ -230,6 +236,12 @@ nav {
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-items: center;
+}
+
+@media (max-width:768px) {
+  .nouvelles-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media (max-width:375px) {
