@@ -1,6 +1,6 @@
 <?php 
 /**
- * 	Template Name: À propos
+ * 	Template Name: news hub
  * 	Identique à page, mais avec une barre latérale
  */
 
@@ -13,9 +13,22 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
 
 	<article>
 		<?php if (!is_front_page()) : // Si nous ne sommes PAS sur la page d'accueil ?>
+
 			<h2>
 				<?php the_title(); // Titre de la page ?>
+			
 			</h2>
+			<?php
+ 				 $projects = new WP_Query('post_type=post');
+  				while ($projects->have_posts()) : $projects->the_post(); 
+				?>
+				<a href="<?php echo get_permalink()?>"><?php the_title(); ?></a> <!-- Link --> 
+				
+  
+<?php
+  endwhile; 
+  wp_reset_postdata(); 
+?>
 		<?php endif; ?>
 		
 		<?php the_content(); // Contenu principal de la page ?>

@@ -13,6 +13,9 @@ if ( have_posts() ) :
 
 	<article>
 		<h2>
+			<?php the_post_thumbnail('large' ) // images ;?> 
+			 <?php the_field("categorie")?>
+			Nouvelles
 			<?php the_title(); // Titre de l'article ?>
 		</h2>
 		
