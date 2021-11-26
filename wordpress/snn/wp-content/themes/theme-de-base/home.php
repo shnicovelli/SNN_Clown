@@ -14,7 +14,7 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
 <main>
 <link rel="stylesheet" href="style.css">
 <header class="main-header">
-    <img class="logo" src="https://github.com/shnicovelli/SNN_Clown/blob/main/sources/medias/ClownSansFrontieresLogo.png?raw=true" alt="logo__csf">
+    <img class="logo-menu" src="https://github.com/shnicovelli/SNN_Clown/blob/main/sources/medias/ClownSansFrontieresLogo.png?raw=true" alt="logo__csf">
     <nav>
       <ul class="navlinks">
         <a href="#" class="liens-menu">Nouvelles</a>
@@ -45,10 +45,10 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
       <a href="https://vimeo.com/user2650793"><img src="https://raw.githubusercontent.com/shnicovelli/SNN_Clown/main/sources/medias/Logo_Vimeo.png" alt="" class="vimeo"></a>
     </div>
   </div>
-  
+  <!-- BLOC-SWIPPER -->
   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
   
-  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+ 
   
   <div class="swiper hero">
     <div class="swiper-wrapper">
@@ -189,6 +189,7 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
     <p class="copyright">©2021 Clown Sans Frontières - SNN</p>
     
   </footer>
+  
   </main>
 <?php endwhile; // Fermeture de la boucle
 

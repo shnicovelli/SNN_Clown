@@ -17,7 +17,7 @@ const swiper = new Swiper('.swiper', {
   
   
   
-  const btn = document.querySelector('.btn ')
+  const btn = document.querySelector('.bouton-don-bloc-don  ')
   
   
   btn.addEventListener('click', () => {
@@ -37,3 +37,29 @@ const swiper = new Swiper('.swiper', {
   });
   
   
+  /*ERREUR 404*/
+  gsap.timeline()
+    .fromTo('.Bleu', { x:"0%" , y: '-40%' },
+           {y: "-170%" , duration:5} )
+    .fromTo('.Bleu' , { y: '-170%'},
+           {x:"-300%", duration:5})
+    .fromTo('.Bleu' , { y: '-170%'},
+           {y:"-40%", duration:5})
+     .fromTo('.Bleu' , { x: '-300%'},
+           {x:"0%", duration:5})
+gsap.timeline()
+     .fromTo('.Rouge' , {x:"0%", y: '-40%'},
+           {x:"300%", duration:10 })
+    .fromTo('.Rouge' , { y: '-40%'},
+           {y:"-170%", duration:5} )
+     .fromTo('.Rouge' , {x:"300%"},
+            { x:"0%" , duration:5 })
+    .fromTo('.Rouge' , {y:"-170%"},
+            { y:"-40%" , duration:5 })
+gsap.timeline()
+      .fromTo('.Bleu' , {rotationZ:"0%"},
+            { rotationZ:"1800deg" , duration:25 })
+      .fromTo('.Rouge' , {rotationZ:"0%"},
+            { rotationZ:"1800deg" , duration:30 } ,"<")
+
+    
