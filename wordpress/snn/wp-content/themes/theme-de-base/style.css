@@ -793,6 +793,7 @@ transform: translate(0px, 34px);
   justify-content: center;
   align-items: center;
   flex-direction:column;
+  margin-bottom: 10%;
   
 }
 
@@ -804,7 +805,7 @@ transform: translate(0px, 34px);
 }
 
 .logo-404{
-  margin-top: 15%;
+  margin-top: 5%;
   width:30%;
 }
 

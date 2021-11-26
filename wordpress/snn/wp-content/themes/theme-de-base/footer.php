@@ -4,9 +4,9 @@
 	/*-----------------------------------------------------------------------------------*/
 
 // Fermeture de la zone de contenu principale ?>
-</main>
 
-<footer>
+
+<footer class="main-footer">
 	    
 <div class="bloc-infos">
       <a href="home.php"><img src="https://i.imgur.com/oOf9Re2.png" alt="" class="clown-logo"></a>
@@ -51,6 +51,3 @@
 	 Si vous enlevez cette fonction, vous désactiverez du même coup toutes vos extensions (plugins) 🤷. 
 	 Vous pouvez la déplacer si désiré, mais garder là. */
 ?>
-
-</body>
-</html>
