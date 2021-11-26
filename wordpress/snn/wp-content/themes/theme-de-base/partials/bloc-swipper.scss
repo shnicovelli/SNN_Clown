@@ -1,0 +1,29 @@
+body{
+  width: 100%;
+  height: 100%;
+}
+
+.swiper {
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    position: relative;
+  
+  .swiper-img {
+    display:block;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+
+  .swiper-slide{
+    position: relative;
+  }
+
+}
+ @media(max-width:375px) {
+  .swiper-img {
+    width: 375px;
+    object-fit: cover;
+  }
+}

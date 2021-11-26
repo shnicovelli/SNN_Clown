@@ -1,0 +1,48 @@
+/************ RÉSEAUX SOCIAUX STICKY ************/
+.reseaux-main {
+    position: sticky;
+    top: 20px;
+    width: 0;
+    height: 0;
+    z-index: 2;
+  
+  
+  .reseaux {
+    width: 15px;
+    height: 15px;
+    padding: 30px;
+    margin-top: 6px;
+    background-color: #78A1BB;
+    border-radius: 25px;
+    opacity: 70%;
+  }
+  
+  .reseaux:hover {
+    background-color: #E10707;
+    transition: 0.5s;
+    opacity: 100%;
+  }
+  
+  @media (max-width:375px) {
+    .reseaux {
+      width: 0;
+      height: 0;
+      border-radius: 20px;
+      margin-top: 3px;
+    }
+  }
+  
+  .twitter, .facebook, .youtube, .instagram, .vimeo {
+    width: 50px;
+    transform: translate(-17px, -15px);
+  }
+  
+  @media (max-width:375px) {
+    .twitter, .facebook, .youtube, .instagram, .vimeo {
+      width: 32px;
+      height: 32px;
+    }
+  }
+  
+}
+  

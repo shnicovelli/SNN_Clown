@@ -1,0 +1,24 @@
+.image-heros-histoire {
+    width: 100%;
+    filter: brightness(50%);
+    z-index: 0;
+  }
+  
+  .titre-heros-histoire {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -150%);
+    color: white;
+    font-size: 100px;
+    z-index: 1;
+    font-family: Cindyrella;
+    white-space: nowrap;
+  }
+
+  @media (max-width:376px) {
+    .titre-heros-histoire{
+     font-size: 40px;
+      transform: translate(-50%, -900%);
+    }
+  }

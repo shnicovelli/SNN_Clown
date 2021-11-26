@@ -1,0 +1,81 @@
+/************ BLOC NOUVELLES ************/
+@use "font.scss";
+.main-nouvelles {
+    background-color: #283044;
+  
+  
+  .nouvelles-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  @media (max-width:375px) {
+    .nouvelles-wrapper {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  .nouvelles-cartes {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 50px;
+  }
+  
+  .nouvelles-cartes:hover {
+    background-color: #BFA89E;
+    transition: 0.8s;
+    cursor: pointer;
+  }
+  
+  .nouvelles-titre {
+    color: white;
+    font-size: 130px;
+    font-family: "Cindyrella";
+    text-align: center;
+    grid-column: span 3;
+    padding-top: 40px;
+    margin: 30px;
+  }
+  
+  @media (max-width:375px) {
+    .nouvelles-titre {
+      font-size: 50px;
+    }
+  }
+  
+  .nouvelles-intertitre {
+    color: white;
+    font-size: 50px;
+    font-family: Zulpiya;
+    text-align: center;
+  }
+  
+  @media (max-width:375px) {
+    .nouvelles-intertitre {
+      font-size: 23px;
+    }
+  }
+  
+  .nouvelles-description {
+    color: white;
+    font-size: 22px;
+    font-family: Corbel;
+    width: 100%;
+  }
+  
+  @media (max-width:375px) {
+    .nouvelles-description {
+      font-size: 18px;
+    }
+  }
+  
+  .nouvelle1, .nouvelle2, .nouvelle3 {
+    border-radius: 40px;
+    width: 100%;
+  }
+  
+}
+  
