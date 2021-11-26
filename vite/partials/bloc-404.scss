@@ -1,0 +1,40 @@
+/*STYLES ERREUR 404*/
+.bloc-404{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    margin-bottom: 10%;
+    
+  }
+  
+  .texte-404 {
+    font-size:40px;
+    font-family: Cyndirella;
+    text-align:center;
+    margin-top: 0%;
+  }
+  
+  .logo-404{
+    margin-top: 5%;
+    width:30%;
+  }
+  
+  .quile{
+    position:absolute;
+    width:25%;
+  }
+  
+  .Rouge{
+    left:0%;
+  }
+  
+  .Bleu{
+    right:0%;
+  }
+  
+  .rotation{
+    position:relative;
+    width:70%;
+  }

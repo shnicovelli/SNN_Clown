@@ -1,85 +1,119 @@
-.bloc-animation  {
-    position:relative;
-    width: 100%;
-    height:100vh;
-    background: url("https://raw.githubusercontent.com/shnicovelli/SNN_Clown/main/sources/medias/don.jpg") no-repeat ;
-    background-size:100% 100%;
-  
-  
-  
-  .ballon1 {
-    position:absolute;
-    width : 100px;
-    height : auto; 
-    left: 50%;
-    transform: translateX(-50%);
-    bottom : 0; 
-    opacity:0%;
-  }
-  
-  .ballon2 {
-    position:absolute;
-    width : 100px;
-    height : auto; 
-    left: 40%;
-    transform: translateX(-50%);
-    bottom : 0; 
-    opacity:0%;
-  }
-  
-  .ballon3 {
-    position:absolute;
-    width : 100px;
-    height : auto; 
-    left: 60%;
-    transform: translateX(-50%);
-    bottom : 0; 
-    opacity:0%;
-  }
-  
-  .titre-don{
-    position:absolute;
-    color: white;
-    font-size: 40px;
-    font-family: Cindyrella;
-    left:50%;
-    transform: translateX(-50%);
-    top:10%;
-  }
-  .txt-don{
-    position:absolute;
-    color: WHITE;
-    font-size: 20px;
-    font-family: Corbel;
-    width: 20%;
-    left:50%;
-    transform: translateX(-50%);
-    top:30%;
-  }
-  
-  .bouton-don {
-    font-family: Zulpiya;
-    font-size: 40px;
-    color: white;
-    border-radius: 19px;
-    border: none;
-    background-color: #E10707;
-  }
-  
-  .btn {
-    position: absolute;
-    width:25%;
-    height:125px;
-    bottom: 10%;
-    left: 50%;
-    transform: translateX(-50%);
-    transition: transform 0.2s;
-    z-index:1;
-  }
-  
-  .btn:hover {
-    transform: translate(-50%,2%);
-  }
 
+/************ BLOC DON ************/
+.bloc-animation  {
+  position:relative;
+  width: 100%;
+  height:100vh;
+  margin-top: 50px;
 }
+
+@media (max-width:375px) {
+  .bloc-animation {
+    height: 500px;
+  }
+}
+
+.img-don {
+  width: 100%;
+  height:100%;
+  background: url("https://raw.githubusercontent.com/shnicovelli/SNN_Clown/main/sources/medias/don.jpg") no-repeat ;
+  filter: brightness(50%);
+  background-size:100% 100%;
+}
+
+.ballon1 {
+  position:absolute;
+  width : 100px;
+  height : auto; 
+  left: 50%;
+  transform: translateX(-50%);
+  bottom : 0; 
+  opacity:0%;
   
+}
+
+.ballon2 {
+  position:absolute;
+  width : 100px;
+  height : auto; 
+  left: 40%;
+  transform: translateX(-50%);
+  bottom : 0; 
+  opacity:0%;
+ 
+}
+
+.ballon3 {
+  position:absolute;
+  width : 100px;
+  height : auto; 
+  left: 60%;
+  transform: translateX(-50%);
+  bottom : 0; 
+  opacity:0%;
+  
+}
+
+.titre-don{
+  position:absolute;
+  color: white;
+  font-size: 40px;
+  font-family: Cindyrella;
+  left:50%;
+  transform: translateX(-50%);
+  top:10%;
+  z-index: 2;
+}
+
+@media (max-width:375px) {
+  .titre-don {
+    width: 60%;
+    text-align: center;
+  }
+}
+
+.txt-don{
+  position:absolute;
+  color: WHITE;
+  font-size: 20px;
+  font-family: Corbel;
+  width: 20%;
+  left:50%;
+  transform: translateX(-50%);
+  top:30%;
+  z-index: 2;
+}
+
+@media (max-width:375px) {
+  .txt-don {
+    width: 90%;
+  }
+}
+
+.bouton-don-bloc-don {
+  font-family: Zulpiya;
+  font-size: 40px;
+  color: white;
+  border-radius: 19px;
+  border: none;
+  background-color: #E10707;
+  position: absolute;
+  width:25%;
+  height:125px;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: transform 0.2s;
+  z-index:1;
+}
+
+.bouton-don-bloc-don:hover {
+  transform: translate(-50%,2%);
+}
+
+@media (max-width:375px) {
+  .bouton-don-bloc-don {
+    width: 80%;
+    height: 20%;
+  }
+}

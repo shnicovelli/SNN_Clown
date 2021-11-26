@@ -1,29 +1,31 @@
-body{
-  width: 100%;
-  height: 100%;
-}
-
+/************ SWIPER ************/
 .swiper {
-    width: 100%;
-    height: 100vh;
-    z-index: -1;
-    position: relative;
-  
-  .swiper-img {
-    display:block;
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-  }
-
-  .swiper-slide{
-    position: relative;
-  }
-
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
 }
- @media(max-width:375px) {
+
+.swiper-img {
+  display:block;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.swiper-slide{
+  position: relative;
+}
+
+@media(max-width:375px) {
   .swiper-img {
     width: 375px;
+    height: 100%;
     object-fit: cover;
   }
+  .swiper {
+    width: 375px;
+    height: 50%;
+    z-index: -1;
+  }
 }
+
