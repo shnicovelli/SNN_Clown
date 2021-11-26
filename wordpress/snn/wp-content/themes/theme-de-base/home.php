@@ -20,8 +20,8 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
         <a href="#" class="liens-menu">Nouvelles</a>
         <a href="#" class="liens-menu">Services</a>
         <a href="#" class="liens-menu">Équipe</a>
-        <a href="#" class="liens-menu">À propos</a>
-        <a href="histoire.php" class="liens-menu">Histoire</a>
+        <a href="erreur" class="liens-menu">À propos</a>
+        <a href="histoire" class="liens-menu">Histoire</a>
       </ul>
     </nav>
     <a href="#" class="liens-menu"><button class="bouton-menu">FAIRE UN DON</button></a>
@@ -139,7 +139,7 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
   
   
   <div class="bloc-animation">
-
+  <div class="img-don"> </div>
 <button class="bouton-don-bloc-don">FAIRE UN DON</button>
 <a class="titre-don">Lorem ipsum dolor sit amet</a>
   <a class="txt-don">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempo incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</a>  
@@ -148,6 +148,7 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
   <img src='https://i.pinimg.com/originals/d9/33/0a/d9330a972ab4d3eb8940d5ab550ec05f.png' class = "ballon2">
   <img src='https://i.pinimg.com/originals/d9/33/0a/d9330a972ab4d3eb8940d5ab550ec05f.png' class = "ballon3">
 </div>
+
 </div>
   </main>
 <?php endwhile; // Fermeture de la boucle
