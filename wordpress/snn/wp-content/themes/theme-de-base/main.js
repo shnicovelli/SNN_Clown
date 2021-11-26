@@ -1,3 +1,4 @@
+/*SWIPER*/
 const swiper = new Swiper('.swiper', {
     // Optional parameters
     direction: 'horizontal',
@@ -15,27 +16,7 @@ const swiper = new Swiper('.swiper', {
   
   });
   
-  
-  
-  const btn = document.querySelector('.bouton-don-bloc-don  ')
-  
-  
-  btn.addEventListener('click', () => {
-    gsap.timeline()
-      .fromTo('.ballon1', 
-      { opacity: '0%' , skewX : '0%', y : '-5%'}, 
-      { opacity: '100%',  skewX : '5%',  y : '-80%' ,duration:1.5,   }
-    )
-    .fromTo('.ballon2', 
-      { opacity: '0%' , skewX : '0%', y : '-5%'}, 
-      { opacity: '100%',  skewX : '-10%',  y : '-80%' ,duration:1.5,   }
-    )
-    .fromTo('.ballon3', 
-      { opacity: '0%' , skewX : '0%', y : '-5%'}, 
-      { opacity: '100%',  skewX : '10%',  y : '-80%' ,duration:1.5,   }
-    );
-  });
-  
+
   
   /*ERREUR 404*/
   gsap.timeline()
@@ -62,4 +43,24 @@ gsap.timeline()
       .fromTo('.Rouge' , {rotationZ:"0%"},
             { rotationZ:"1800deg" , duration:30 } ,"<")
 
-    
+
+  
+  /*GSAP BLOC DON*/
+  const btn = document.querySelector('.bouton-don-bloc-don')
+  
+  
+  btn.addEventListener('click', () => {
+    gsap.timeline()
+      .fromTo('.ballon1', 
+      { opacity: '0%' , skewX : '0%', y : '-5%'}, 
+      { opacity: '100%',  skewX : '5%',  y : '-80%' ,duration:1.5,   }
+    )
+    .fromTo('.ballon2', 
+      { opacity: '0%' , skewX : '0%', y : '-5%'}, 
+      { opacity: '100%',  skewX : '-10%',  y : '-80%' ,duration:1.5,   }
+    )
+    .fromTo('.ballon3', 
+      { opacity: '0%' , skewX : '0%', y : '-5%'}, 
+      { opacity: '100%',  skewX : '10%',  y : '-80%' ,duration:1.5,   }
+    );
+  });

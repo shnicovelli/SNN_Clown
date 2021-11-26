@@ -149,47 +149,6 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
   <img src='https://i.pinimg.com/originals/d9/33/0a/d9330a972ab4d3eb8940d5ab550ec05f.png' class = "ballon3">
 </div>
 </div>
-  
-  
-  <!-- FOOTER -->
-  <footer class="main-footer">
-    
-    <div class="bloc-infos">
-      <a href="home.php"><img src="https://i.imgur.com/oOf9Re2.png" alt="" class="clown-logo"></a>
-      <div class="information">
-        <p class="contactez">Contactez-nous</p>
-        <a href="https://www.google.com/maps/place/105+Rue+Ontario+E+bureau+203,+Montr%C3%A9al,+QC+H2X+1G9/@45.5124354,-73.5690497,17z/data=!3m1!4b1!4m5!3m4!1s0x4cc91a4b866f35cd:0x6ec4d6b9aa9231bd!8m2!3d45.5124317!4d-73.566861"><p class="adresse lien-footer">105 rue Ontario Est, bureau 203</p></a>
-        <p class="couriel">contact@clownssansfrontieres.ca</p>
-        <p class="telephone">514-495-1287</p>
-      </div>
-    </div>
-  
-    <div class="bloc-don">
-      <a href="don.html"><button class="bouton-don-footer">FAIRE UN DON</button></a>
-    </div>
-    
-    <div class="bloc-partenaires">
-      <p class="partenaires">Partenaires</p>
-        <div class="images-partenaires">
-          <div class="fond-partenaires">
-            <img src="https://i.imgur.com/stCWYR2.png" alt="" class="partenaire-tohu">
-          </div>
-          <div class="fond-partenaires">
-            <img src="https://i.imgur.com/OgYOvet.png" alt="" class="partenaire-angus">
-          </div>
-          <div class="fond-partenaires">
-            <img src="https://i.imgur.com/tOzGEZ8.png" alt="" class="partenaire-holt">
-          </div>
-          <div class="fond-partenaires">
-            <img src="https://i.imgur.com/N2Xie92.png" alt="" class="partenaire-canvas">
-          </div>
-     </div>
-    </div>
-    
-    <p class="copyright">©2021 Clown Sans Frontières - SNN</p>
-    
-  </footer>
-  
   </main>
 <?php endwhile; // Fermeture de la boucle
 
