@@ -166,13 +166,13 @@ nav {
   justify-items: center;
 }
 
-@media (max-width:768px) {
+@media (max-width:1070px) {
   .services-wrapper {
     grid-template-columns: 1fr 1fr;
   }
 }
 
-@media (max-width:375px) {
+@media (max-width:903px) {
   .services-wrapper {
     grid-template-columns: 1fr;
   }
@@ -252,13 +252,13 @@ nav {
   justify-items: center;
 }
 
-@media (max-width:768px) {
+@media (max-width:1070px) {
   .nouvelles-wrapper {
     grid-template-columns: 1fr 1fr;
   }
 }
 
-@media (max-width:375px) {
+@media (max-width:903px) {
   .nouvelles-wrapper {
     grid-template-columns: 1fr;
   }
@@ -481,6 +481,7 @@ nav {
   transform: translateX(-50%);
   bottom : 0; 
   opacity:0%;
+  
 }
 
 .ballon2 {
@@ -491,6 +492,7 @@ nav {
   transform: translateX(-50%);
   bottom : 0; 
   opacity:0%;
+ 
 }
 
 .ballon3 {
@@ -501,6 +503,7 @@ nav {
   transform: translateX(-50%);
   bottom : 0; 
   opacity:0%;
+  
 }
 
 .titre-don{
@@ -511,6 +514,7 @@ nav {
   left:50%;
   transform: translateX(-50%);
   top:10%;
+  z-index: 2;
 }
 
 @media (max-width:375px) {
@@ -529,6 +533,7 @@ nav {
   left:50%;
   transform: translateX(-50%);
   top:30%;
+  z-index: 2;
 }
 
 @media (max-width:375px) {
