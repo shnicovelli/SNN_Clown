@@ -527,8 +527,8 @@ footer {
   margin-top: 50px; /*Pour qu'il ne touche pas au contenu en haut. Enlever au besoin!!*/
   padding-top: 15px;
   padding-bottom: 15px;
-  padding-left: 50px;
-  padding-right: 50px;
+ 
+  
   background-color: #283044;
   color: white;
 }
