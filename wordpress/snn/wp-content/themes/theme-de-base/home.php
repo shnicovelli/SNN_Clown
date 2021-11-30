@@ -17,14 +17,14 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
     <img class="logo-menu" src="https://github.com/shnicovelli/SNN_Clown/blob/main/sources/medias/ClownSansFrontieresLogo.png?raw=true" alt="logo__csf">
     <nav>
       <ul class="navlinks">
-        <a href="#" class="liens-menu">Nouvelles</a>
-        <a href="#" class="liens-menu">Services</a>
-        <a href="team" class="liens-menu">Équipe</a>
-        <a href="erreur" class="liens-menu">À propos</a>
+        <a href="nouvelles" class="liens-menu">Nouvelles</a>
+        <a href="services" class="liens-menu">Services</a>
+        <a href="equipe" class="liens-menu">Équipe</a>
+        <a href="a-propos" class="liens-menu">À propos</a>
         <a href="histoire" class="liens-menu">Histoire</a>
       </ul>
     </nav>
-    <a href="#" class="liens-menu"><button class="bouton-menu">FAIRE UN DON</button></a>
+    <a href="https://www.clownssansfrontieres.ca/donner/" class="liens-menu"><button class="bouton-menu">FAIRE UN DON</button></a>
   </header>
   
   <!-- RÉSEAUX SOCIAUX STICKY -->

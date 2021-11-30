@@ -9,7 +9,7 @@
 <footer class="main-footer">
 	    
 <div class="bloc-infos">
-      <a href="home.php"><img src="https://i.imgur.com/oOf9Re2.png" alt="" class="clown-logo"></a>
+      <a href="home"><img src="https://i.imgur.com/oOf9Re2.png" alt="" class="clown-logo"></a>
       <div class="information">
         <p class="contactez">Contactez-nous</p>
         <a href="https://www.google.com/maps/place/105+Rue+Ontario+E+bureau+203,+Montr%C3%A9al,+QC+H2X+1G9/@45.5124354,-73.5690497,17z/data=!3m1!4b1!4m5!3m4!1s0x4cc91a4b866f35cd:0x6ec4d6b9aa9231bd!8m2!3d45.5124317!4d-73.566861"><p class="adresse lien-footer">105 rue Ontario Est, bureau 203</p></a>
@@ -26,16 +26,24 @@
       <p class="partenaires">Partenaires</p>
         <div class="images-partenaires">
           <div class="fond-partenaires">
-            <img src="https://i.imgur.com/stCWYR2.png" alt="" class="partenaire-tohu">
+            <a href="https://tohu.ca/fr">
+              <img src="https://i.imgur.com/stCWYR2.png" alt="" class="partenaire-tohu">
+            </a>
           </div>
           <div class="fond-partenaires">
-            <img src="https://i.imgur.com/OgYOvet.png" alt="" class="partenaire-angus">
+            <a href="https://sda-angus.com/">
+              <img src="https://i.imgur.com/OgYOvet.png" alt="" class="partenaire-angus">
+            </a>
           </div>
           <div class="fond-partenaires">
-            <img src="https://i.imgur.com/tOzGEZ8.png" alt="" class="partenaire-holt">
+            <a href="https://www.holtrenfrew.com/fr">
+              <img src="https://i.imgur.com/tOzGEZ8.png" alt="" class="partenaire-holt">
+            </a>
           </div>
           <div class="fond-partenaires">
-            <img src="https://i.imgur.com/N2Xie92.png" alt="" class="partenaire-canvas">
+            <a href="https://groupecanva.com/">
+              <img src="https://i.imgur.com/N2Xie92.png" alt="" class="partenaire-canvas">
+            </a>
           </div>
      </div>
     </div>
