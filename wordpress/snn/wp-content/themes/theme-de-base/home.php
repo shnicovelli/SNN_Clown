@@ -19,7 +19,7 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
       <ul class="navlinks">
         <a href="#" class="liens-menu">Nouvelles</a>
         <a href="#" class="liens-menu">Services</a>
-        <a href="#" class="liens-menu">Équipe</a>
+        <a href="team" class="liens-menu">Équipe</a>
         <a href="erreur" class="liens-menu">À propos</a>
         <a href="histoire" class="liens-menu">Histoire</a>
       </ul>
