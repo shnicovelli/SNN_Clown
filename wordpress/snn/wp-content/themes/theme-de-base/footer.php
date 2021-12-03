@@ -9,7 +9,7 @@
 <footer class="main-footer">
 	    
 <div class="bloc-infos">
-      <a href="home"><img src="https://i.imgur.com/oOf9Re2.png" alt="" class="clown-logo"></a>
+      <a href="https://snncsf.go.yj.fr/"><img src="https://i.imgur.com/oOf9Re2.png" alt="" class="clown-logo"></a>
       <div class="information">
         <p class="contactez">Contactez-nous</p>
         <a href="https://www.google.com/maps/place/105+Rue+Ontario+E+bureau+203,+Montr%C3%A9al,+QC+H2X+1G9/@45.5124354,-73.5690497,17z/data=!3m1!4b1!4m5!3m4!1s0x4cc91a4b866f35cd:0x6ec4d6b9aa9231bd!8m2!3d45.5124317!4d-73.566861"><p class="adresse lien-footer">105 rue Ontario Est, bureau 203</p></a>

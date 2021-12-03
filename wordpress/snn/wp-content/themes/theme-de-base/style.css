@@ -935,7 +935,6 @@ body {
   }
   
   .nouvelles-titre {
-    color: #707070;
     font-size: 130px;
     font-family: Cindyrella;
     text-align: center;
@@ -951,7 +950,6 @@ body {
   }
   
   .nouvelles-intertitre {
-    color: #707070;
     font-size: 50px;
     font-family: Zulpiya;
     text-align: center;
@@ -964,7 +962,6 @@ body {
   }
   
   .nouvelles-description {
-    color: #707070;
     font-size: 22px;
     font-family: Corbel;
     width: 100%;
