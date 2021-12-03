@@ -19,7 +19,7 @@
     </div>
   
     <div class="bloc-don">
-      <a href="don.html"><button class="bouton-don-footer">FAIRE UN DON</button></a>
+      <a href="https://www.clownssansfrontieres.ca/donner/"><button class="bouton-don-footer">FAIRE UN DON</button></a>
     </div>
     
     <div class="bloc-partenaires">
