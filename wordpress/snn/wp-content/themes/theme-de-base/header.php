@@ -32,19 +32,29 @@
 	?>
 >
 
-<header>
-	<h1>
-		<a href="<?php echo esc_url( home_url( '/' ) ); // Lien vers la page d'accueil ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); // Title it with the blog name ?>" rel="home"><?php bloginfo( 'name' ); // Affiche le nom du site ?></a>
-	</h1>
-
-	<nav>
-		<?php 
-			// Affiche un menu si dans le tableau de bord un menu a été défini dans cet emplacement
-			wp_nav_menu( array( 'theme_location' => 'main-menu' ) );
-		?>
-	</nav>
 
 
-</header>
+<header class="main-header">
+    <img class="logo-menu" src="https://github.com/shnicovelli/SNN_Clown/blob/main/sources/medias/ClownSansFrontieresLogo.png?raw=true" alt="logo__csf">
+    <nav>
+      
+      <?php 
+
+       wp_nav_menu(array('theme_location' => 'main-menu',
+
+                                'container' => 'ul',
+
+                                'menu_class' => 'navlinks',
+
+                            ));
+                            
+        ?>
+      
+    </nav>
+    <a href="https://www.clownssansfrontieres.ca/donner/" class="liens-menu"><button class="bouton-menu">FAIRE UN DON</button></a>
+  </header>
+
+
+
 
 <main><!-- Débute le contenu principal de notre site -->
