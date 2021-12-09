@@ -291,6 +291,12 @@ body {
     transition: 0.8s;
   }
   
+  @media (max-width:768px) {
+    .propos-cartes {
+      transform: translate(-16%, 0%);
+    }
+  }
+
   @media (max-width:375px) {
     .propos-cartes {
       transform: translate(-7%, 0%);
