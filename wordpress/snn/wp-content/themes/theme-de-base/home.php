@@ -61,19 +61,19 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
     <div class="services-cartes">
        <p class="services-intertitre">Spectacles gratuits pour tous</p>
        <img src="https://i.imgur.com/AkHEpZ9.jpg" alt="" class="service1">
-       <p class="services-description">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempo incididunt ut labore et dolore magna aliqua. Ut enim ad minim...</p>
+       <p class="services-description">Les spectacles mêlent non seulement l’art du clown mais également l’acrobatie, la musique, le cirque, le théâtre de rue, le conte et les marionnettes...</p>
     </div>
   
     <div class="services-cartes">
        <p class="services-intertitre">Ateliers artistiques</p>
        <img src="https://i.imgur.com/kSWPfhS.jpg" alt="" class="service2">
-       <p class="services-description">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempo incididunt ut labore et dolore magna aliqua. Ut enim ad minim...</p>
+       <p class="services-description">Clowns Sans Frontières organise des ateliers d’expression et d’initiation artistique auprès des enfants, des travailleurs sociaux et des éducateurs...</p>
     </div>
   
     <div class="services-cartes">
         <p class="services-intertitre">Soutien aux artistes locaux</p>
         <img src="https://i.imgur.com/V8YRd5O.jpg" alt="" class="service3">
-        <p class="services-description">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempo incididunt ut labore et dolore magna aliqua. Ut enim ad minim...</p>
+        <p class="services-description">Clowns Sans Frontières collabore avec les artistes locaux pour soutenir la pratique de leur art et promouvoir l’échange artistique...</p>
     </div>
     </div>
        
@@ -87,19 +87,19 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
       <div class="nouvelles-cartes">
         <p class="nouvelles-intertitre">Plan de soutien aux organismes de coopération internationale</p>
         <img src="https://i.imgur.com/lv4Pd6m.jpg" alt="" class="nouvelle1">
-        <p class="nouvelles-description">10 déc. 2020<br><br>Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempo incididunt ut labore et dolore magna aliqua. Ut enim ad minim...</p>
+        <p class="nouvelles-description">10 déc. 2020<br><br>Plus de 3,7 M$ accordés à 30 organismes québécois de coopération internationale afin d’appuyer la réalisation de projets visant à réduire les effets de la COVID-19...</p>
       </div>
         
       <div class="nouvelles-cartes">
         <p class="nouvelles-intertitre">Communiqué pour publication immédiate</p>
         <img src="https://i.imgur.com/HC3nNVO.jpg" alt="" class="nouvelle2">
-        <p class="nouvelles-description">10 nov. 2020<br><br>Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempo incididunt ut labore et dolore magna aliqua. Ut enim ad minim...</p>
+        <p class="nouvelles-description">10 nov. 2020<br><br>L’organisme Clowns Sans Frontières s’investit dans la défense des Droits de l’Enfant en soulignant la journée internationale qui se tient le 20 novembre...</p>
        </div>
       
       <div class="nouvelles-cartes">
         <p class="nouvelles-intertitre">Journée Mondiale du nettoyage de notre planète</p>
         <img src="https://i.imgur.com/AkHEpZ9.jpg" alt="" class="nouvelle3">
-        <p class="nouvelles-description">9 oct. 2020<br><br>Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempo incididunt ut labore et dolore magna aliqua. Ut enim ad minim...</p>
+        <p class="nouvelles-description">9 oct. 2020<br><br>160 pays ont répondu présents à ce rendez-vous planétaire, le plus grand mouvement d’action citoyenne au Monde en 2020...</p>
       </div>
     </div>
     
@@ -116,9 +116,9 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
     
       <div class="temoignage-cartes">
         <p class="temoignage-intertitre1">Témoignage de Marc Leblanc</p>
-          <p class="temoignage-description1">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempo incididunt ut labore et dolore magna aliqua. Ut enim ad minim...</p>
+          <p class="temoignage-description1">C’est ainsi que s’organise, la première mission de Payasos Sin Fronteras (Clowns Sans Frontières – Espagne) dans les camps de réfugiés de Veli Joseph...</p>
           <p class="temoignage-intertitre2">Un mouvement</p>
-        <p class="temoignage-description2">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempo incididunt ut labore et dolore magna aliqua. Ut enim ad minim...</p>
+        <p class="temoignage-description2">Quelques mois plus tard, la balle est lancée et Clowns Sans Frontières Canada prend son envol...</p>
         <button class="bouton-savoir-plus">En savoir plus</button>
       </div>
     </div>
@@ -129,8 +129,8 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
   <div class="bloc-animation">
   <div class="img-don"> </div>
 <button class="bouton-don-bloc-don">FAIRE UN DON</button>
-<a class="titre-don">Ce que les médecins font pour le corps, les clowns le font pour l'âme.</a>
-  <a class="txt-don">Tous les dons récoltés permettent de déployer nos artistes bénévoles professionnels et de donner des spectacles gratuits aux populations victimes de la guerre, de la misère ou de l’exclusion, particulièrement les enfants d’ici comme d’ailleurs.</a>  
+<a class="titre-don">Aidez une bonne cause</a>
+  <a class="txt-don">Tous les dons récoltés permettent de déployer nos artistes bénévoles professionnels et de donner des spectacles gratuits.</a>  
 <div class='anim'>
   <img src='https://i.pinimg.com/originals/d9/33/0a/d9330a972ab4d3eb8940d5ab550ec05f.png' class = "ballon1">
   <img src='https://i.pinimg.com/originals/d9/33/0a/d9330a972ab4d3eb8940d5ab550ec05f.png' class = "ballon2">
