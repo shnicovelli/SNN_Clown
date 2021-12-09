@@ -1,6 +1,6 @@
 <?php 
 /**
- * 	Template Name: histoire
+ * 	Template Name:histoire
  * 	Identique à page, mais avec une barre latérale
  */
 
@@ -11,22 +11,11 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
 	while ( have_posts() ) : the_post(); 
 ?>
 
-<article> 
-    <?php if (!is_front_page()) : ?>
+<main>
 
-    <h2> <?php the_title(); ?> </h2>
-
-
-    <?php endif;?>
-    <img src="https://raw.githubusercontent.com/shnicovelli/SNN_Clown/main/sources/medias/Histoire_Heros.jpg" alt="" class="image-heros-histoire">
-    <div class="description">
-
-        <?php the_content();?>
-
-    </div>
-    
-</article>
-
+<p class="texte-histoire"><?php the_content()?></b>
+</p>
+</main>
 
 <?php endwhile; // Fermeture de la boucle
 
