@@ -11,8 +11,8 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
 	while ( have_posts() ) : the_post(); 
 ?>
 
-<p class="titre-heros-hub-nouvelles">Nouvelles</p>
-<img src="https://raw.githubusercontent.com/shnicovelli/SNN_Clown/main/sources/medias/Hub_Nouvelle_Heros.jpg" alt="" class="image-heros-hub-nouvelles">
+<p class="titre-heros">Nouvelles</p>
+<img src="https://raw.githubusercontent.com/shnicovelli/SNN_Clown/main/sources/medias/Hub_Nouvelle_Heros.jpg" alt="" class="image-heros">
 
 <!-- MENU DROP-DOWN -->
 <select name="drop-down-nouvelles" class="drop-down-nouvelles">
@@ -42,7 +42,7 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
       <p class="services-description">9 oct. 2020<br><br>Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempo incididunt ut labore et dolore magna aliqua. Ut enim ad minim...</p>
   </div>
   </div>
-     
+
 </div>
 
 <!-- BLOC NOUVELLES -->
