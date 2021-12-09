@@ -30,6 +30,8 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
     </div>
   </div>
 
+<p class="titre-heros">Nouvelles</p>
+<img src="https://raw.githubusercontent.com/shnicovelli/SNN_Clown/main/sources/medias/Hub_Nouvelle_Heros.jpg" alt="" class="image-heros">
 
 <!-- MENU DROP-DOWN -->
 <select name="drop-down-nouvelles" class="drop-down-nouvelles">
