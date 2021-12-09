@@ -129,8 +129,8 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
   <div class="bloc-animation">
   <div class="img-don"> </div>
 <button class="bouton-don-bloc-don">FAIRE UN DON</button>
-<a class="titre-don">Lorem ipsum dolor sit amet</a>
-  <a class="txt-don">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempo incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</a>  
+<a class="titre-don">Ce que les médecins font pour le corps, les clowns le font pour l'âme.</a>
+  <a class="txt-don">Tous les dons récoltés permettent de déployer nos artistes bénévoles professionnels et de donner des spectacles gratuits aux populations victimes de la guerre, de la misère ou de l’exclusion, particulièrement les enfants d’ici comme d’ailleurs.</a>  
 <div class='anim'>
   <img src='https://i.pinimg.com/originals/d9/33/0a/d9330a972ab4d3eb8940d5ab550ec05f.png' class = "ballon1">
   <img src='https://i.pinimg.com/originals/d9/33/0a/d9330a972ab4d3eb8940d5ab550ec05f.png' class = "ballon2">
