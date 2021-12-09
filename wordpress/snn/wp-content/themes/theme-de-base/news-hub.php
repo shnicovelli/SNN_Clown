@@ -11,6 +11,25 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
 	while ( have_posts() ) : the_post(); 
 ?>
 
+  <!-- RÉSEAUX SOCIAUX STICKY -->
+  <div class="reseaux-main">
+    <div class="reseaux">
+      <a href="https://twitter.com/csf_canada"><img src="https://raw.githubusercontent.com/shnicovelli/SNN_Clown/main/sources/medias/Logo_Twitter.png" alt="" class="twitter"></a>
+    </div>
+    <div class="reseaux">
+      <a href="https://www.facebook.com/ClownsSansFrontieres/"><img src="https://raw.githubusercontent.com/shnicovelli/SNN_Clown/main/sources/medias/Logo_Facebook.png" alt="" class="facebook"></a>
+    </div>
+    <div class="reseaux">
+      <a href="https://www.youtube.com/channel/UCQWUO8JZx69GPWRInazRPMw"><img src="https://raw.githubusercontent.com/shnicovelli/SNN_Clown/main/sources/medias/Logo_Youtube.png" alt="" class="youtube"></a>
+    </div>
+    <div class="reseaux">
+      <a href="https://www.instagram.com/clownssansfrontieres/?hl=fr-ca"><img src="https://raw.githubusercontent.com/shnicovelli/SNN_Clown/main/sources/medias/Logo_Instagram.png" alt="" class="instagram"></a>
+    </div>
+    <div class="reseaux">
+      <a href="https://vimeo.com/user2650793"><img src="https://raw.githubusercontent.com/shnicovelli/SNN_Clown/main/sources/medias/Logo_Vimeo.png" alt="" class="vimeo"></a>
+    </div>
+  </div>
+
 <p class="titre-heros">Nouvelles</p>
 <img src="https://raw.githubusercontent.com/shnicovelli/SNN_Clown/main/sources/medias/Hub_Nouvelle_Heros.jpg" alt="" class="image-heros">
 
