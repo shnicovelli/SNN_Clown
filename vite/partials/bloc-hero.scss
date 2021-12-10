@@ -1,10 +1,11 @@
-.image-heros-histoire {
+.image-heros {
     width: 100%;
     filter: brightness(50%);
     z-index: 0;
+    width: auto;
   }
   
-  .titre-heros-histoire {
+  .titre-heros {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -17,7 +18,7 @@
   }
 
   @media (max-width:376px) {
-    .titre-heros-histoire{
+    .titre-heros{
      font-size: 40px;
       transform: translate(-50%, -900%);
     }

@@ -7,6 +7,9 @@
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
+<meta property="og:title" content="<?php the_title()?>">
+<meta property="og:description" content="<?php the_excerpt()?>">
+<meta property="og:image" content="<?php the_post_thumbnail()?>">
 <meta name="viewport" content="width=device-width" />
 <title>
 	<?php bloginfo('name'); // Affiche le nom du blog ?> | 

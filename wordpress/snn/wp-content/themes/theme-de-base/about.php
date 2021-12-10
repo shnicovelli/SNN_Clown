@@ -12,12 +12,14 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
 ?>
 
 <!-- HÉROS À PROPOS -->
-
+<?php the_post_thumbnail('large', array('class' => 'image-heros')); ?>
+<?php the_title('<div class="titre-heros">', '</div>');?>
 
 <!-- BLOC CONTACT -->
 <div class="main-propos">
-  <?php the_content()?>
-     
+<div class="texte">
+<?php the_content();?>
+ </div>    
 </div>
 
 

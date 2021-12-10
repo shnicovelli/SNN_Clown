@@ -12,9 +12,9 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
 ?>
 
 <main>
-
-<p class="texte-histoire"><?php the_content()?></b>
-</p>
+<?php the_title('<div class="titre-heros">', '</div>');?>
+<?php the_post_thumbnail('large', array('class' => 'image-heros')); ?>
+<div class="texte"><?php the_content();?></div>
 </main>
 
 <?php endwhile; // Fermeture de la boucle

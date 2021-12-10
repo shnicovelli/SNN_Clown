@@ -93,6 +93,7 @@ body {
     width: 100%;
     filter: brightness(50%);
     z-index: 0;
+    height: auto;
   }
   
   .titre-heros {

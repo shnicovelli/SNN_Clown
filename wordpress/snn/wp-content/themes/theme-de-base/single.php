@@ -10,9 +10,11 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
 	while ( have_posts() ) : the_post(); 
 ?>
 
-<p class="titre-heros-detail-nouvelle"><?php the_title()?></p>
-<?php the_post_thumbnail()?>
-<?php the_content()?>
+<?php the_title('<div class="titre-heros">', '</div>');?>
+<?php the_post_thumbnail('large', array('class' => 'image-heros')); ?>
+<div class="texte"><?php the_content();?></div>
+<p class="texte-heros"><?php the_field("categorie")?></p>
+
 
 <div class="bloc-partage">
   <div class="reseaux-bloc-partage">
