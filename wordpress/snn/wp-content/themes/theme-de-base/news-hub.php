@@ -30,67 +30,16 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
     </div>
   </div>
 
-<p class="titre-heros">Nouvelles</p>
-<img src="https://raw.githubusercontent.com/shnicovelli/SNN_Clown/main/sources/medias/Hub_Nouvelle_Heros.jpg" alt="" class="image-heros">
 
 <!-- MENU DROP-DOWN -->
-<select name="drop-down-nouvelles" class="drop-down-nouvelles">
-   <option value="recentes">Les plus récentes</option>
-   <option value="anciennes">Les plus anciennes</option>
-</select>
 
-<!-- BLOC SERVICES -->
-<div class="main-services">
-  
- <div class="services-wrapper"> 
-  <div class="services-cartes">
-     <p class="services-intertitre-special">Spectacles gratuits pour tous</p>
-     <img src="https://i.imgur.com/AkHEpZ9.jpg" alt="" class="service1-special">
-     <p class="services-description-special">10 déc. 2020<br><br>Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempo incididunt ut labore et dolore magna aliqua. Ut enim ad minim...</p>
-  </div>
 
-  <div class="services-cartes">
-     <p class="services-intertitre">Ateliers artistiques</p>
-     <img src="https://i.imgur.com/kSWPfhS.jpg" alt="" class="service2">
-     <p class="services-description">10 nov. 2020<br><br>Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempo incididunt ut labore et dolore magna aliqua. Ut enim ad minim...</p>
-  </div>
-
-  <div class="services-cartes">
-      <p class="services-intertitre">Soutien aux artistes locaux</p>
-      <img src="https://i.imgur.com/V8YRd5O.jpg" alt="" class="service3">
-      <p class="services-description">9 oct. 2020<br><br>Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempo incididunt ut labore et dolore magna aliqua. Ut enim ad minim...</p>
-  </div>
-  </div>
-
-</div>
-
-<!-- BLOC NOUVELLES -->
-<div class="main-nouvelles">
-  
-  <div class="nouvelles-wrapper">
-    <div class="nouvelles-cartes">
-      <p class="nouvelles-intertitre">Plan de soutien aux organismes de coopération internationale</p>
-      <img src="https://i.imgur.com/lv4Pd6m.jpg" alt="" class="nouvelle1">
-      <p class="nouvelles-description">31 août 2020<br><br>Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempo incididunt ut labore et dolore magna aliqua. Ut enim ad minim...</p>
-    </div>
-      
-    <div class="nouvelles-cartes">
-      <p class="nouvelles-intertitre">Communiqué pour publication immédiate</p>
-      <img src="https://i.imgur.com/HC3nNVO.jpg" alt="" class="nouvelle2">
-      <p class="nouvelles-description">23 mars 2020<br><br>Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempo incididunt ut labore et dolore magna aliqua. Ut enim ad minim...</p>
-     </div>
-    
-    <div class="nouvelles-cartes">
-      <p class="nouvelles-intertitre">Journée Mondiale du nettoyage de notre planète</p>
-      <img src="https://i.imgur.com/AkHEpZ9.jpg" alt="" class="nouvelle3">
-      <p class="nouvelles-description">1 mars 2020<br><br>Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempo incididunt ut labore et dolore magna aliqua. Ut enim ad minim...</p>
-    </div>
-  </div>
-  
-</div>
+<?php the_title('<div class="titre-heros">', '</div>');?>
+<?php the_post_thumbnail('large', array('class' => 'image-heros')); ?>
+<div class="texte"><?php the_content();?></div>
 
 <!-- BOUTON PLUS DE NOUVELLES -->
-<button class="bouton-plus-nouvelles">Voir plus de nouvelles</button>
+
 
 <?php endwhile; // Fermeture de la boucle
 
